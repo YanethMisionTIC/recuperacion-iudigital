@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="col s12 l4 m4">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="'+iterador_productos.imagenProducto+'" />
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4"
+            >'+iterador_productos.nombre+'<i class="material-icons right"
+              >more_vert</i
+            ></span
+          >
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"
+            >Producto 1<i class="material-icons right">close</i></span
+          >
+          <p>'+iterador_productos.descripcion+'</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
